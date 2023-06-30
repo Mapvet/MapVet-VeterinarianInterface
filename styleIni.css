@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    height:70px;
+    justify-content:space-between;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    height:134px;
+}
+
+.title h1{
+    text-align:center;
+    margin:25px;
+    font-size:7rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.login{
+    float: right;
+    margin-left:-20px;
+}
+
+.login h1{
+    text-align:center;
+    font-size:1rem;
+    margin:0;
+}
+
+.login img{
+    margin-top:12px;
+    margin-right:12px;
+    height:92px;
+}
+
+.menu{
+    background: #31B4A7;
+    width: 94%;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 110px;
+}
+.menu ul{
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+.menu ul li{
+    /*alinear de forma vertical*/
+    display: inline-block;
+    line-height: 80px;
+    /*separa los caracteres del menu*/
+    margin: 0 5px;
+    font-size:7rem;
+    margin-top:-25px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.menu ul li a{
+    color: #000000;
+    font-size: 38px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 80%;
+    margin-left: auto ;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+li a.active, li a:hover{
+    background: #DDF3F6;
+    transition: .5s;
+}
+
+li a.active{
+    background: #08857C;
+    transition: .5s;
+}
+
+.slider {
+    margin-left: 428px;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+  }
+  .slider ul{
+    display: flex;
+    animation: cambio 20s infinite;
+    width: 300%;
+  }
+  .slider li{
+    width: 50%;
+    list-style: none;
+  }
+  .slider img{
+    width: 50%;
+    height: 100%;
+  }
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+  }

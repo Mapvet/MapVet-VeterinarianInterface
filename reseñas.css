@@ -1,0 +1,185 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    height:70px;
+    justify-content:space-between;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    height:134px;
+}
+
+.title h1{
+    text-align:center;
+    margin:25px;
+    font-size:7rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.login{
+    float: right;
+    margin-left:-20px;
+}
+
+.login h1{
+    text-align:center;
+    font-size:1rem;
+    margin:0;
+}
+
+.login img{
+    margin-top:12px;
+    margin-right:12px;
+    height:92px;
+}
+
+.menu{
+    background: #31B4A7;
+    width: 94%;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 110px;
+}
+.menu ul{
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+.menu ul li{
+    /*alinear de forma vertical*/
+    display: inline-block;
+    line-height: 80px;
+    /*separa los caracteres del menu*/
+    margin: 0 5px;
+    font-size:7rem;
+    margin-top:-25px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.menu ul li a{
+    color: #000000;
+    font-size: 38px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 80%;
+    margin-left: auto ;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+li a.active, li a:hover{
+    background: #DDF3F6;
+    transition: .5s;
+}
+
+li a.active{
+    background: #08857C;
+    transition: .5s;
+}
+
+/*arreglo*/
+
+.section{
+    margin: 50px;
+    padding: 50px;
+    background: #FFF0CB;
+    width: 94%;
+    margin-left: auto ;
+    margin-right: auto;
+    height: 55.5vh;
+}
+
+.cite{
+    display: flex;    
+    align-items: center;
+}
+.content{
+    float: right;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 20%;
+}
+.content h2{
+    background-position: center top;
+    font-size: 30px;
+    color: #000000;   
+}
+.content img{
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 12.9%;
+}
+.content h4{
+    font-size: 25px;
+    margin-top: 5%;
+}
+.content2{
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    margin-left: 5%;
+    margin-top:45px;
+    width: 20%;
+}
+.content2 h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.infoCita{    
+    width: 33%;
+    height: 10px;
+    color: #000000;
+    margin: 0;
+    margin-left: 5%;
+}
+.info{
+    margin-top: -160px;
+    text-align: center;
+}
+.margen1{
+    background-color: #F6FFFF;
+    width: 59%;
+    padding: 7px 13px;
+    border-radius: 5px;
+    margin: 26px;
+}
+
+.info h5{
+    
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+}
+.ButtonSelect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonSelect a{
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    background-color: #08857C;
+    padding: 7px 13px;
+    border-radius: 50px;
+    color: #F6FFFF;
+}
